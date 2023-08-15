@@ -1,0 +1,51 @@
+.postListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1rem;
+  width: 1200px;
+}
+
+.postItem {
+  flex: 0 0 calc(33% - 1rem);
+  width: 1000px; 
+  background-color: #f1f1f1;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.postItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.postTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: #212529;
+  transition: color 0.3s;
+}
+
+.postContent {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #212529;
+  transition: color 0.3s;
+}
+
+.postCategory {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #007bff;
+  margin: 0 0 0.5rem;
+}
+
+.link{
+  text-decoration-line: none;
+}

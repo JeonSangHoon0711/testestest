@@ -1,0 +1,92 @@
+/* SelfIntroduction.css */
+.gridContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 120px;
+  
+}
+
+.item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px;
+  background-color: antiquewhite;
+  width: 200px; /* 가로 크기 설정 */
+  height: 200px; /* 세로 크기 설정 */
+}
+
+.blogContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh; /* Viewport height */
+}
+
+#blog {
+  font-family: 'Arial', sans-serif;
+  font-size: 120px;
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 3s;
+}
+
+#blog:hover {
+  color: brown;
+}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  grid-column: 1;
+  font-size: 2em;
+  text-align: center;
+}
+
+.name {
+  grid-column: 1;
+}
+
+.age {
+  grid-column: 1;
+}
+
+.job {
+  grid-column: 1;
+}
+
+.interests {
+  grid-column: 1;
+}
+
+.interests ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.interests li {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}

@@ -1,0 +1,61 @@
+.loginPageContainer {
+  display: flex;
+  margin-top: -8%;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Viewport height에서 상단 네비게이션 높이를 제외한 높이를 적용 */
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.formRow label {
+  margin-bottom: 0.5rem;
+}
+
+.formRow input {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.formRowLoginReg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formRowLoginReg button {
+  width: 45%;
+  padding: 0.5rem;
+  background-color: #5865F2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.formRowLoginReg button:hover {
+  background-color: #487AEC;
+}
+
+.formRowLoginReg button:nth-child(2) {
+  background-color: #57F287;
+}
+
+.formRowLoginReg button:nth-child(2):hover {
+  background-color: #49D879;
+}

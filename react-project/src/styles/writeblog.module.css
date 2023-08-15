@@ -1,0 +1,35 @@
+/* create-post.css */
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.inputWrapper {
+  margin-bottom: 1rem;
+}
+
+.input,
+.textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.textarea {
+  min-height: 300px;
+  resize: vertical;
+}
+
+.submit {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #1a73e8;
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #0d5bcc;
+}

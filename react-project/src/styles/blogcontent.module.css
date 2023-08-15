@@ -1,0 +1,108 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.container1 {
+  width: 800px; /* 너비를 고정하고 싶은 값으로 설정하세요 */
+  height: auto; /* 높이를 고정하려면 'auto' 대신 원하는 값으로 설정하세요 */
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: left;
+  background-color: #eef;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.item1 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.like {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.like button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #f66;
+}
+
+.commentSection {
+  margin-top: 20px;
+  background-color: #f5f5f5; /* 새로 추가된 배경색 */
+  border-radius: 6px; /* 새로 추가된 모서리 둥글게 처리 */
+  padding: 25px; /* 새로 추가된 패딩값 */
+}
+
+.commentSectionH3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold; /* 새로 추가된 두꺼운 글꼴 */
+  color: #565656; /* 새로 추가된 글자색 */
+}
+
+.commentForm {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.commentInput {
+  flex: 1;
+  padding: 5px 10px;
+  border: 2px solid #ccc; /* 새로 추가된 테두리 두께 */
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.commentInput:focus {
+  border-color: #0095f6;
+}
+
+.commentButton {
+  padding: 6px 12px;
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); /* 새로 추가된 그림자 효과 */
+}
+
+.commentButton:hover {
+  background-color: #0074c3;
+}
+
+.commentList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.commentItem {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 10px; /* 새로 추가된 패딩값 */
+  background-color: #fff; /* 새로 추가된 배경색 */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15); /* 새로 추가된 그림자 효과 */
+  border-radius: 4px; /* 새로 추가된 모서리 둥글게 처리 */
+  margin-bottom: 15px; /* 새로 추가된 여백값 */
+}
+
+.commentDate {
+  font-size: 14px;
+  color: #999;
+}

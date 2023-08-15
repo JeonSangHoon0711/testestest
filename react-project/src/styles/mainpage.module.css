@@ -1,0 +1,62 @@
+
+.gridContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 60px;
+  row-gap: 40px;
+  justify-items: center;
+  align-items: center;
+}
+
+.item {
+  text-align: center;
+  padding: 20px;
+  width: 200px; /* 가로 크기 설정 */
+  height: 200px; /* 세로 크기 설정 */
+  background-color: #f1f1f1;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 높이를 지정하여 다양한 화면 크기에서 중앙에 배치하도록 유지 */
+  min-height: 60vh;
+  
+}
+.title {
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 100%;
+  color: black;
+  
+}
+
+.link {
+  text-decoration: none;
+}
+
+.content{
+  color: black;
+}
